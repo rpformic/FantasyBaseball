@@ -1,0 +1,194 @@
+Rules and Scoring Link: https://www.espn.com/fantasy/story/_/id/22335700/fantasy-baseball-espn-fantasy-baseball-101-settings
+
+-------------------------------------------------------------------
+
+Between 4 and 20 teams: I should probably generalize for this
+
+10 teams is relatively standard.
+
+Standard Roster:
+
+Catcher: 1
+1B: 1
+2B: 1
+SS: 1
+3B: 1
+MI: 1 (Filled by 2B or SS)
+CI: 1 (Filled by 1B / 3B)
+OF: 5
+UTIL (any): 1
+Pitchers: 9
+Bench: 3 (on roster, but not in the starting lineup)
+
+Usually a good idea to have 1, or 2 IR spots
+
+You can stash injured players on IR for later in the season.
+
+Check the site linked above for a detailed description of league
+settings. 
+
+------------------------------------------------------------------
+
+Roto: Ranked by category, points are awarded according to the order in each category. In this way all categories are basically equal.
+
+Head to Head Points: Categories have values, i.e. HR = 4, RBI = 1
+
+Head to Head Most Categories: You want to win in as many categories 
+as possible against a head to head apponent. You either win or you 
+lose.
+
+Head to Head Each Categories: A win loss or tie is accreddited in each category vs your apponent. These wins and losses accumulate over
+time, and decide rankings I 
+
+Season Points: Just a total of points. Different point categories
+have different point values.
+
+Teams and divisions exist. Less then 12, 2 are suggested, 12 or more
+3 are suggested with either 1 or 3 wild card teams. (teams with the
+best record)
+
+-------------------------------------------------------------------
+
+Undropable List: This is a setting which prevents managers from dropping stars. The idea behind this is to prevent collusion between
+a team trying to make the playoffs, and a team which is eliminated
+
+Lineup changes: You can choose to either lock lineups on a weekly
+or daily basis.
+
+Weekly: Lineups need to be locked in before the first game on
+Monday. (THIS IS REALLY BAD, MY ALGORITHM IS BEST BECAUSE IT 
+DOESNT TAKE BREAKS).
+
+Daily: Either lock individually at the scheduled game time (best)
+or to lock when the first game starts (Way better then weekly).
+
+-------------------------------------------------------------------
+
+Player Aquisition System:
+
+Waivers: Players dropped from a team will be put on waivers for 1 or 
+2 days. At which time, any team can put in a waiver claim for him. 
+The team with the highest waiver priority that made a claim will
+get the player and move to the bottom of the waiver queue. 
+
+Free Agent Auction: Allows teams to bid on waivers based on a free
+agent budget, called a FAAB. The highest blind bid gets the player.
+(this might greatly overcomplicate my algorithm, but if done well
+could give me a big advantage). Stretch Goal.
+
+Season Aquisition Limit: Really bad for me, should not exist, do
+not play in a league that has this.
+
+Trade Deadline: Unlimited Trades are a must. The trade deadline can
+be used to prevent manager collusion at the end of the season. I'm 
+fairly indifferent on this topic.
+
+Trade Review: I would prefer not to have trade review so I can make
+last minute trades, but can be used to prevent collusion. I think 
+I'm indifferent.
+
+Keeper Rules: Keep players for the next season. N/A rn
+
+Schedule: Wise to end the season before the final month of the season 
+because many teams, sit / rest stars. Advised to wrap up the league
+by Week 21 or 22.
+
+--------------------------------------------------------------------
+
+Offline: Obvious. Basically N / A
+
+Snake: Draft order reverses each round
+
+Auction: Budget based. Get to bid on each player. Another Streatch
+goal. I'm sure theres a good algorithm.
+
+--------------------------------------------------------------------
+
+Scoring:
+
+Hitters: 1 point for each total base, run scored, stolen base, walk and RBI. -1 point for each strikeout.
+
+Pitchers: 1 Point for every batter retired. 1 EXTRA point if its a strikeout. -1 point for walks and hits. Earned runs cost 2 points a piece. 5 points for wins and saves. -5 for Losses. They make a point to say that pitchers with a good K/BB are good.
+
+There are a ton of different ways to do scoring. I should look into 
+them. This is the default.
+
+
+Categories are:
+
+Hitters AVG, HR, RBI, SB, R
+
+Pitchers: W, SV, K, ERA, WHIP
+
+--------------------------------------------------------------------
+
+Note:
+
+I should pay a lot of attention to how many points each player is going to earn me per week, throughout the year. I need to win every
+week, not just score the total points for the season.
+
+Maybe instead of saying I need to win every week I need to win to win
+enough weeks to win the playoffs, Then I need to win my matchups, in
+order to win the title.
+
+The more I look, Maybe Head-to-Head most categories would give me 
+the greatest advantage to win the most games.
+
+--------------------------------------------------------------------
+
+Where I should get the data from:
+
+https://appac.github.io/mlb-data-api-docs/#header-getting-started
+
+How to get the data:
+
+https://www.srijan.net/blog/how-parse-json-data-rest-api-using-simple-json-library
+
+https://github.com/Corefinder89/SampleJavaCodes/blob/master/src/Dummy1.java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
